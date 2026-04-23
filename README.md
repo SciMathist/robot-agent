@@ -1,5 +1,7 @@
 # robot-mcp
 
+![Status](https://img.shields.io/badge/status-under--development-orange)
+
 An MCP server that bridges a physical robot (or actuator system) to a virtual
 agent such as Claude.  Supports three transports: **stdio**, **SSE**, and
 **WebSocket**, all sharing the same tool/resource logic.
