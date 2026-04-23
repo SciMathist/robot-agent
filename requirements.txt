@@ -1,0 +1,16 @@
+# Core MCP framework (includes FastMCP)
+mcp>=1.3.0
+
+# Async serial I/O for Arduino / ESP32 POC bridge
+pyserial-asyncio>=0.6.0
+
+# Pydantic v2 + settings management
+pydantic>=2.0.0
+pydantic-settings>=2.0.0
+
+# WebSocket transport
+aiohttp>=3.9.0
+
+# Optional — only needed for SSE transport (FastMCP pulls this in via mcp[cli])
+# uvicorn>=0.29.0
+# starlette>=0.37.0
