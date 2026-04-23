@@ -1,14 +1,16 @@
-# robot-mcp
+# robot-agent
 
 ![Status](https://img.shields.io/badge/status-under--development-orange)
 
-An MCP server that bridges a physical robot (or actuator system) to a virtual
+An MCP server (`robot-mcp`) that bridges a physical robot (or actuator system) to a virtual
 agent such as Claude.  Supports three transports: **stdio**, **SSE**, and
-**WebSocket**, all sharing the same tool/resource logic.
+**WebSocket**, all sharing the same tool/resource logic. The project will also have a second module called `embot` which is a AVLA agent that uses the server to control a robot.
+
+`robot-agent = robot-mcp + embot`
 
 ---
 
-## Project layout
+## Project layout 
 
 ```
 robot_mcp/
